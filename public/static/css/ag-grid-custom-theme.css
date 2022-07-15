@@ -5,17 +5,91 @@ MORE DOCUMENTATION HERE : https://www.ag-grid.com/javascript-data-grid/themes/
 .ag-theme-alpine {
     --ag-header-height: 30px;
     --ag-header-foreground-color: white;
-    --ag-header-background-color: black;
+    --ag-header-background-color: rgb(49, 59, 91);
     --ag-header-cell-hover-background-color: rgb(80, 40, 140);
     --ag-header-cell-moving-background-color: rgb(80, 40, 140);
+    --ag-icon-font-family: agGridMaterial;
 }
 .ag-theme-alpine .ag-header {
-    font-family: cursive;
-}
+    font-family: Montserrat-Medium;
+    font-size: 22px;
+    color: #fff;
+    line-height: 1.4;
+    text-transform: uppercase;
+    background-color: #36304a;}
 .ag-theme-alpine .ag-header-group-cell {
     font-weight: normal;
     font-size: 22px;
 }
 .ag-theme-alpine .ag-header-cell {
     font-size: 18px;
+}
+
+.container-fluid {
+    height: 100vh!important;
+    padding: 0!important;
+}
+
+.ag-side-buttons {
+    position: relative;
+    z-index: 100;
+    background-color: white;
+}
+
+.ag-side-bar .ag-side-buttons:hover .ag-tool-panel-wrapper{
+    right: 250px;
+}
+
+.ag-tool-panel-wrapper {
+    position: absolute;
+    height: 100%;
+    right: 100%;
+}
+
+.ag-cell-value > span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ag-cell-value > span > span {
+    max-width: 115px;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+
+.ag-filter-toolpanel span {
+    color: black;
+}
+
+.ag-header-container span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.718);
+    line-height: 1.4;
+    text-transform: uppercase !important;
+    background-color: #36304a;
+}
+
+.ag-status-name-value input {
+    border: 1px gray solid;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition: .2s linear;
+    margin: 1px;
+}
+
+.ag-status-name-value input:hover {
+    border: 2px black solid;
+    margin: 0;
+}
+.ag-pivot-off .ag-header-group-cell {
+    font-size: 50px;
+    color: red;
+}
+
+.ag-pivot-on .ag-header-group-cell {
+    font-size: 25px;
+    color: green;
 }

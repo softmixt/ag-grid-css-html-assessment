@@ -1,0 +1,39 @@
+.header-custom{
+    height: 40px;
+    width: 100vw;
+    background-color: rgb(96, 142, 183);
+}
+.header-custom-logo{
+    height: 40px;
+    width: 120px;
+    margin-left: 55px;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: azure;
+}
+.header-custom-profile{
+    height: 30px;
+    width: 100px;
+    margin-top: -36px;
+    float: right;
+    margin-right: 40px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: azure;
+}
+
+.footer-custom{
+    height: 30px;
+    width: 100vw;
+    background-color: rgb(96, 142, 183);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: azure;
+}
